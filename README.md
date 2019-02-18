@@ -2,14 +2,14 @@
 A web based to-do list application that uses a variety of programming languages and frameworks while utilizing a micro-service architecture approach.
 
 ## Services
-- [ ] To-Do Tasks
-- [ ] To-Do Task Notes
-- [ ] To-Do Task File Attachments
-- [ ] Email Sending
-- [ ] Email Receiving Processing
-- [ ] Push Notifications
-- [ ] Authentication Login ( single-user environment )
-- [ ] Authentication Teams ( multi-user environment | 2FA | Permissions )
+-  To-Do Tasks
+-  To-Do Task Comments
+-  To-Do Task File Attachments
+-  Email Sending - Over Due Tasks
+-  Email Receiving - For replying to task comments or creating new tasks
+-  Push Notifications
+-  Authentication Login ( single-user environment )
+-  Authentication Teams ( multi-user environment | 2FA | Permissions )
 
 ## To Implement
 - [ ] Dependency Injection
