@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Dto.Tasks\ToDo.Dto.Tasks.csproj" />
+    <ProjectReference Include="..\ToDo.Entities.Tasks\ToDo.Entities.Tasks.csproj" />
+  </ItemGroup>
+</Project>
