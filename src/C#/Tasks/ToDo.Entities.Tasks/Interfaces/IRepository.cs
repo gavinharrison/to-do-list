@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace ToDo.Buisness.Tasks
+namespace ToDo.Entities.Tasks
 {
     public interface IRepository<TEntity> where TEntity : class
     {
@@ -13,7 +13,7 @@ namespace ToDo.Buisness.Tasks
         void Add(TEntity entity);
         void AddRange(IEnumerable<TEntity> entities);
 
-        void Remove(TEntity entiry);
+        void Remove(TEntity entity);
         void RemoveRange(IEnumerable<TEntity> entities);
     }
 }

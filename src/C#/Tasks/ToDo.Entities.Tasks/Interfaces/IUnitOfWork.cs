@@ -1,9 +1,9 @@
 ﻿using System;
-namespace ToDo.Buisness.Tasks
+namespace ToDo.Entities.Tasks
 {
     public interface IUnitOfWork : IDisposable
     {
-        ITasksRepository Tasks();
+        ITasksRepository Tasks { get; }
         int Complete();
     }
 }
